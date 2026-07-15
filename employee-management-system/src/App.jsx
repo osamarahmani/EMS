@@ -113,7 +113,7 @@ function LiveClock() {
   return <span className="topbar-clock">{time}</span>
 }
 
-const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:5000'
+const API_BASE = import.meta.env.VITE_API_URL || 'http://192.168.29.105:5000'
 
 const demoUsers = [
   { id: 1, name: 'Ava Chen', email: 'admin@ems.com', password: 'password123', role: 'super_admin' },
